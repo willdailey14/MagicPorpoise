@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B0B899B31FCF626D00C55326 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899B21FCF626D00C55326 /* AppDelegate.swift */; };
-		B0B899B51FCF626E00C55326 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899B41FCF626E00C55326 /* ViewController.swift */; };
+		B0B899B51FCF626E00C55326 /* PlaceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899B41FCF626E00C55326 /* PlaceListViewController.swift */; };
 		B0B899B81FCF626E00C55326 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B899B61FCF626E00C55326 /* Main.storyboard */; };
 		B0B899BA1FCF626E00C55326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B899B91FCF626E00C55326 /* Assets.xcassets */; };
 		B0B899BD1FCF626E00C55326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B899BB1FCF626E00C55326 /* LaunchScreen.storyboard */; };
+		B0B899C51FCF6DAC00C55326 /* DateListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899C41FCF6DAC00C55326 /* DateListViewController.swift */; };
+		B0B899C71FCF6DC200C55326 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899C61FCF6DC200C55326 /* DetailViewController.swift */; };
+		B0B899C91FCF775E00C55326 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0B899C81FCF775D00C55326 /* GoogleService-Info.plist */; };
+		B0B899D71FD3997000C55326 /* DateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899D61FD3997000C55326 /* DateDetail.swift */; };
+		B0B899DD1FD5D4DD00C55326 /* SurfSpots.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B899DC1FD5D4DC00C55326 /* SurfSpots.swift */; };
+		F3AA38B18D62120DC45F83C7 /* Pods_MagicPorpoise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF74071C1E4C56EB45C7B854 /* Pods_MagicPorpoise.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E429360149C4DA34C751628 /* Pods-MagicPorpoise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPorpoise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B0209C723D2076538D75F2 /* Pods-MagicPorpoise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicPorpoise.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise.release.xcconfig"; sourceTree = "<group>"; };
 		B0B899AF1FCF626D00C55326 /* MagicPorpoise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicPorpoise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B899B21FCF626D00C55326 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0B899B41FCF626E00C55326 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0B899B41FCF626E00C55326 /* PlaceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListViewController.swift; sourceTree = "<group>"; };
 		B0B899B71FCF626E00C55326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B899B91FCF626E00C55326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B899BC1FCF626E00C55326 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B899BE1FCF626E00C55326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B899C41FCF6DAC00C55326 /* DateListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateListViewController.swift; sourceTree = "<group>"; };
+		B0B899C61FCF6DC200C55326 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B0B899C81FCF775D00C55326 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B0B899D61FD3997000C55326 /* DateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDetail.swift; sourceTree = "<group>"; };
+		B0B899DC1FD5D4DC00C55326 /* SurfSpots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfSpots.swift; sourceTree = "<group>"; };
+		FF74071C1E4C56EB45C7B854 /* Pods_MagicPorpoise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicPorpoise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3AA38B18D62120DC45F83C7 /* Pods_MagicPorpoise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A16F69C6C8E4970E2149A682 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E429360149C4DA34C751628 /* Pods-MagicPorpoise.debug.xcconfig */,
+				A9B0209C723D2076538D75F2 /* Pods-MagicPorpoise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0B899A61FCF626D00C55326 = {
 			isa = PBXGroup;
 			children = (
 				B0B899B11FCF626D00C55326 /* MagicPorpoise */,
 				B0B899B01FCF626D00C55326 /* Products */,
+				A16F69C6C8E4970E2149A682 /* Pods */,
+				B5CED56B4A7478C7CD7ECCBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +81,26 @@
 			isa = PBXGroup;
 			children = (
 				B0B899B21FCF626D00C55326 /* AppDelegate.swift */,
-				B0B899B41FCF626E00C55326 /* ViewController.swift */,
+				B0B899D61FD3997000C55326 /* DateDetail.swift */,
+				B0B899C61FCF6DC200C55326 /* DetailViewController.swift */,
+				B0B899C41FCF6DAC00C55326 /* DateListViewController.swift */,
+				B0B899B41FCF626E00C55326 /* PlaceListViewController.swift */,
+				B0B899DC1FD5D4DC00C55326 /* SurfSpots.swift */,
 				B0B899B61FCF626E00C55326 /* Main.storyboard */,
 				B0B899B91FCF626E00C55326 /* Assets.xcassets */,
 				B0B899BB1FCF626E00C55326 /* LaunchScreen.storyboard */,
 				B0B899BE1FCF626E00C55326 /* Info.plist */,
+				B0B899C81FCF775D00C55326 /* GoogleService-Info.plist */,
 			);
 			path = MagicPorpoise;
+			sourceTree = "<group>";
+		};
+		B5CED56B4A7478C7CD7ECCBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF74071C1E4C56EB45C7B854 /* Pods_MagicPorpoise.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0B899C11FCF626E00C55326 /* Build configuration list for PBXNativeTarget "MagicPorpoise" */;
 			buildPhases = (
+				229FF5429E7A4DCC18E5DE13 /* [CP] Check Pods Manifest.lock */,
 				B0B899AB1FCF626D00C55326 /* Sources */,
 				B0B899AC1FCF626D00C55326 /* Frameworks */,
 				B0B899AD1FCF626D00C55326 /* Resources */,
+				54F1558651F00CEC2AC4FEB5 /* [CP] Embed Pods Frameworks */,
+				5DC9756D04D5656CCAD93D03 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,19 +167,107 @@
 			files = (
 				B0B899BD1FCF626E00C55326 /* LaunchScreen.storyboard in Resources */,
 				B0B899BA1FCF626E00C55326 /* Assets.xcassets in Resources */,
+				B0B899C91FCF775E00C55326 /* GoogleService-Info.plist in Resources */,
 				B0B899B81FCF626E00C55326 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		229FF5429E7A4DCC18E5DE13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicPorpoise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54F1558651F00CEC2AC4FEB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC9756D04D5656CCAD93D03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicPorpoise/Pods-MagicPorpoise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0B899AB1FCF626D00C55326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B899B51FCF626E00C55326 /* ViewController.swift in Sources */,
+				B0B899DD1FD5D4DD00C55326 /* SurfSpots.swift in Sources */,
+				B0B899D71FD3997000C55326 /* DateDetail.swift in Sources */,
+				B0B899B51FCF626E00C55326 /* PlaceListViewController.swift in Sources */,
 				B0B899B31FCF626D00C55326 /* AppDelegate.swift in Sources */,
+				B0B899C51FCF6DAC00C55326 /* DateListViewController.swift in Sources */,
+				B0B899C71FCF6DC200C55326 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +402,10 @@
 		};
 		B0B899C21FCF626E00C55326 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E429360149C4DA34C751628 /* Pods-MagicPorpoise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EM8B39U699;
 				INFOPLIST_FILE = MagicPorpoise/Info.plist;
@@ -287,8 +419,10 @@
 		};
 		B0B899C31FCF626E00C55326 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B0209C723D2076538D75F2 /* Pods-MagicPorpoise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EM8B39U699;
 				INFOPLIST_FILE = MagicPorpoise/Info.plist;

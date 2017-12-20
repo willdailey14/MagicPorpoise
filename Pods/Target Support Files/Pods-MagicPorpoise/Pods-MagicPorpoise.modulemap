@@ -1,0 +1,6 @@
+framework module Pods_MagicPorpoise {
+  umbrella header "Pods-MagicPorpoise-umbrella.h"
+
+  export *
+  module * { export * }
+}
